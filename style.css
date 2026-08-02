@@ -56,12 +56,3 @@ position: sticky;
 ::view-transition-group(root){
     animation-duration: 1s;
 }
-::view-transition-old(root){
-    animation-name: in-page;
-}
-@keyframes in-page{
-    to{
-        transform: rotateY(90deg) translateZ(-80vw);
-    }
-
-}
