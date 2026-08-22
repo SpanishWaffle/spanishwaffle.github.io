@@ -1,7 +1,7 @@
 const postTitle = window.location.pathname.slice(6);
 const articleElement = document.getElementById("post");
 
-fetch(`BlogPosts/${postTitle}.md`).then(response => {
+fetch(`/BlogPosts/${postTitle}.md`).then(response => {
     if (response.ok) {
         return response.text();
     } else {
