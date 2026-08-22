@@ -10,7 +10,9 @@ fetch("posts.json").then(response => response.json()).then(postsJson => {
                 <div class="title">
                     <p>${post["date"]} - ${post["title"]}</p>
                 </div>
-                <p>${post["description"]}</p>
+                <div class="subtitle">
+                    <p>${post["description"]}</p>
+                </div>
             </div>
         `;
         document.body.appendChild(anchor);
