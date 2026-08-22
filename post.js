@@ -1,5 +1,4 @@
-const params = new URLSearchParams(window.location.search);
-const postTitle = params.get("post");
+const postTitle = window.location.pathname.slice(6);
 const articleElement = document.getElementById("post");
 
 fetch(`BlogPosts/${postTitle}.md`).then(response => {
