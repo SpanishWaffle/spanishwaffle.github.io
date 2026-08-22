@@ -7,7 +7,7 @@ fetch("posts.json").then(response => response.json()).then(postsJson => {
         anchor.setAttribute("style", "text-decoration: none; color: inherit;");
         anchor.innerHTML = `
             <div class="blog-container-box">
-                <div class="blogbox">
+                <div class="title">
                     <p>${post["date"]} - ${post["title"]}</p>
                 </div>
                 <p>${post["description"]}</p>
