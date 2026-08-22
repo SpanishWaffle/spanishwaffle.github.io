@@ -56,3 +56,12 @@ position: sticky;
 ::view-transition-group(root){
     animation-duration: 1s;
 }
+.blog-container-box{
+    font-size: 25px;
+    font-weight: 300;
+    font-family: serif;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
