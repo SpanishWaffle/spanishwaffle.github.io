@@ -4,11 +4,26 @@
     <meta charset="UTF-8">
     <meta viewport="width=device-width, initial-scale=1.0">
     <title>404</title>
+    <script src="/commonmark.js"></script>
   </head>
 <body>
   <h1>404 Page</h1>
   <script>
-    if (window.location.pathname.startsWith("/post/")) {document.body.innerHTML = "<h1>Post Page</h1>";}
+    if (window.location.pathname.startsWith("/post/")) {document.body.innerHTML = `
+      <nav class="navbar">
+        <div class="logo">David E.</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="mystuff.html">My Stuff</a></li>
+            <li><a href="blog.html">Blog</a></li>
+        </ul>
+    </nav>
+    <article id="post" class="blogbox">
+        <h1>Loading...</h1>
+    </article>
+    `;}
   </script>
+  <script src="/post.js"></script>
 </body>
 </html>
