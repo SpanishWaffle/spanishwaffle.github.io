@@ -16,6 +16,6 @@ fetch(`/BlogPosts/${postTitle}.md`).then(response => {
 }).catch(error => {
     articleElement.innerHTML = `
         <h1>The post that you have requested does not exist.</h1>
-        <p>Please check the URL after "?post=" to see if you've spelt the post title incorrectly.</p>
+        <p>Please check the URL after "/post/" to see if you've spelt the post title incorrectly.</p>
     `;
 });
