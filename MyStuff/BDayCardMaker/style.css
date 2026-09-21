@@ -1,0 +1,48 @@
+body{
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.titlebox{
+    width: 100vw;
+    height: fit-content;
+    background-color: cornflowerblue;
+    color: azure;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.messagebox{
+    border-style: solid;
+    width: 95vw;
+    height: 80vh;
+    border-color: black;
+    margin: 0% 2%;
+}
+.backbutton{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.5vh;
+    margin: 5vh;
+    padding: 0;
+    color:black;
+}
+.backbutton:hover{
+    text-decoration: underline;
+}
+a{
+    color:inherit;
+    text-decoration: inherit;
+}
+img{
+    width: 5vh;
+    height: 5vh;
+}
