@@ -3,13 +3,13 @@
         "title": "Actually First Blog Post",
         "description": "This is a test of the blog area.",
         "date": "7/23/2026",
-        "url": "/posts/Actuallyfirstblogpost"
+        "url": "post.html?post=Actuallyfirstblogpost"
     },
     {
         "title": "Second blog post",
         "description": "I don't know what to say about this blog post.",
         "date": "10/3/2026",
-        "url": "/posts/Secondblogpost"
+        "url": "post.html?post=Secondblogpost"
     }
 ]
 ]
