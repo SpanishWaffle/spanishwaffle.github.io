@@ -3,12 +3,18 @@
         "title": "Actually First Blog Post",
         "description": "This is a test of the blog area.",
         "date": "7/23/2026",
-        "url": "/post/Actuallyfirstblogpost"
+        "url": "/post/actuallyfirstblogpost"
     },
     {
-        "title": "Second blog post",
+        "title": "Second Blog Post",
         "description": "I don't know what to say about this blog post.",
         "date": "10/3/2026",
-        "url": "/post/Secondblogpost"
+        "url": "/post/secondblogpost"
+    },
+    {
+        "title": "NEW LINKS",
+        "description": "yessir there is new links to visit my soundcloud and tiktok",
+        "date": "11/8/2026",
+        "url": "/post/newlinks"
     }
 ]
